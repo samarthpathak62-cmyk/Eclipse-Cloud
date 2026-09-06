@@ -43,7 +43,9 @@ interface AuthContextValue {
 const AuthContext = createContext<AuthContextValue | null>(null);
 
 // Built-in owner emails that automatically receive Owner permissions
-const SYSTEM_OWNERS = ['suniitapathak@gmail.com'];
+const SYSTEM_OWNERS = [
+  import.meta.env.VITE_ADMIN_EMAIL?.toLowerCase()
+].filter(Boolean);
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
