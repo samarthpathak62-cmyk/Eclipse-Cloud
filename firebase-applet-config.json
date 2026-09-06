@@ -2,7 +2,7 @@
   "projectId": "eclipse-cloud-2f378",
   "appId": "1:345749394723:web:b7083cc4adb2c7b74a6896",
   "apiKey": "AIzaSyAcpam4K5890jqmN-yIOVhw0yLkmqx5jHo",
-  "authDomain": "eclipse-cloud-2f378.firebaseapp.com",
+  "authDomain": "eclipse-cloud.vercel.app",
   "firestoreDatabaseId": "(default)",
   "storageBucket": "eclipse-cloud-2f378.firebasestorage.app",
   "messagingSenderId": "345749394723",
